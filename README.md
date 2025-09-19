@@ -59,6 +59,10 @@
 1. Nessa imagem aconteceram dois comandos que infelizmente não foram printados, sendo um deles criação da pasta "backup" utilizando o `mkdir` e alem disso foi feito uma copia do arquivo "documento.txt" utlizando o `cp` para dentro dessa pasta no printa é mostrado o que conta nessa pasta.
 
    ![image11](/photos/img11.png)
+
+   >[!NOTE]
+   >
+   >teste
    ---
 1. Outra vez novamente retornamos para o diretorio de home do usuario root usando o `cd`.
 
