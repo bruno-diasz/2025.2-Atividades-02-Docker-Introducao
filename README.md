@@ -80,9 +80,34 @@
 
    ![image15](/photos/img15.png)
    ---
-1. 
+1. Iniciando um novo tópico iniciamos a parte de pacotes, na figura a abaixo foi utilizado o comando `dnf update -y` que é utlizado para atualizados todos os repositorios de pacotes.
 
    ![image16](/photos/img16.png)
+   ---
+1. O comando `dnf install -y` que é utlizado para instalar um novo pacote no sistema, no qual no exemplo é usado o programa "nano" que é utilizado para edição de texto.
+
+   ![image17](/photos/img17.png)
+   ---
+1. Comando simples para vizualizar a versão de um pacote `nano --version`.
+
+   ![image18](/photos/img18.png)
+   ---
+1. Utilizando esse comando `dnf remove [nome do pacote]`, é possivel remover os pacotes que foram instalados do sistema.
+
+   ![image19](/photos/img19.png)
+   ---
+1. Iniciando a parte de permissão de usuario o comando `ls -l [nome do arquivo]` é responsavel por mostrar as permissões que o usuario tem de um arquivo.
+
+   ![image20](/photos/img20.png)
+
+1. O `chmod` foi utlizado para adicionar a permissão de execução dessa arquivo ao usuario atual, alem disso ele tambem consegue remover a permissão e adicionar outra para usuarios especificos os grupos.
+
+   ![image21](/photos/img21.png)
+   ---
+   
+1. O `chmod` foi utlizado para adicionar a permissão de execução dessa arquivo ao usuario atual, alem disso ele tambem consegue remover a permissão e adicionar outra para usuarios especificos os grupos.
+
+   ![image21](/photos/img22.png)
    ---
 <!-- - Cabeçalho: título da atividade, nome, data
 - Introdução: objetivo do exercício
