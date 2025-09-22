@@ -56,7 +56,7 @@
 
    ![image10](/photos/img10.png)
    ---
-1. Nessa imagem aconteceram dois comandos que infelizmente não foram printados, sendo um deles criação da pasta "backup" utilizando o `mkdir` e alem disso foi feito uma copia do arquivo "documento.txt" utlizando o `cp` para dentro dessa pasta no printa é mostrado o que conta nessa pasta.
+1. Nessa imagem aconteceram dois comandos , sendo um deles criação da pasta "backup" utilizando o `mkdir` e alem disso foi feito uma copia do arquivo "documento.txt" utlizando o `cp` para dentro dessa pasta no printa é mostrado o que conta nessa pasta.
 
    ![image11](/photos/img11.png)
    ---
@@ -117,9 +117,9 @@
    ![image24](/photos/img25.png)
    ---
 
-1. Em seguida utlizamos o "ps" seguido do comando `| grep` para fazer uma filtro na saida do ps onde será possivel encontrar o processo com mais facilidade.
+1. Logo então foi utilizado o comando `kill` juntamente com o id do processo para encerra-lo.
 
-   ![image25](/photos/img2.png)
+   ![image25](/photos/img26.png)
    ---
 
 ## Conclusão
