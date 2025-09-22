@@ -59,10 +59,6 @@
 1. Nessa imagem aconteceram dois comandos que infelizmente não foram printados, sendo um deles criação da pasta "backup" utilizando o `mkdir` e alem disso foi feito uma copia do arquivo "documento.txt" utlizando o `cp` para dentro dessa pasta no printa é mostrado o que conta nessa pasta.
 
    ![image11](/photos/img11.png)
-
-   >[!NOTE]
-   >
-   >teste
    ---
 1. Outra vez novamente retornamos para o diretorio de home do usuario root usando o `cd`.
 
@@ -105,10 +101,31 @@
    ![image21](/photos/img21.png)
    ---
    
-1. O `chmod` foi utlizado para adicionar a permissão de execução dessa arquivo ao usuario atual, alem disso ele tambem consegue remover a permissão e adicionar outra para usuarios especificos os grupos.
+1. Utilizamos o comando `ps aux` para vizualizar as lista de processos em sua maquina.
 
-   ![image21](/photos/img22.png)
+   ![image22](/photos/img22.png)
    ---
+1. Enquanto isso utlizamos o comando `sleep 60 &` somente para ver um novo processo sendo criado e mostrado no ps, esse comando é reponsavel por não fazer nada durante um intervalo de tempo.
+
+   ![image23](/photos/img23.png)
+   ---
+
+
+
+1. Em seguida utlizamos o "ps" seguido do comando `| grep` para fazer uma filtro na saida do ps onde será possivel encontrar o processo com mais facilidade.
+
+   ![image24](/photos/img25.png)
+   ---
+
+1. Em seguida utlizamos o "ps" seguido do comando `| grep` para fazer uma filtro na saida do ps onde será possivel encontrar o processo com mais facilidade.
+
+   ![image25](/photos/img2.png)
+   ---
+
+## Conclusão
+
+&nbsp;&nbsp;&nbsp;&nbsp;Com isso consegui aprender como navegar por diretorios no linux, criação e exclusão de pastas, criação e exclusão de arquivos simples, instalação e remoção de pacotes, listagem e manipulação de processos. Felizmente não tive dificuldade para executar a atividade proposta, e achei bem bacana como funciona a parte das permissões no linux.
+
 <!-- - Cabeçalho: título da atividade, nome, data
 - Introdução: objetivo do exercício
 - Relato: descreva as suas atividades e mostre os resultados com as imagens capturadas
